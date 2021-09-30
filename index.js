@@ -6,14 +6,14 @@ const Amadeus = require("amadeus");
 const stripe = require(
     "stripe"
 )(
-    "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"
+    
 );
 const serviceAccount = require("./serviceAccountKey.json");
 const partnerServiceAccount = require("./serviceAccountKeyPartner.json");
 
 const amadeus = new Amadeus({
-  clientId: "RW15h3taBD1wsiCdE1HVtuYV9jNGuVG4",
-  clientSecret: "aflvAapo4p4ygdLA",
+  clientId: 
+  clientSecret:
   hostname: "production",
 });
 
